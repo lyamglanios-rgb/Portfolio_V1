@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Glanios Lyam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Glanios Lyam</h1>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>À propos</h2>
+      <p>Etudiant en BTS SIO en option SISR, je suis en pleine découverte du monde de l'informatique et de ce qui l'entoure et je souhaite me spécialiser dans le domaine de la cybersécurité.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projets</h2>
+      <div class="project">
+        <h3>Projet BTS SIO</h3>
+        <p>Ensemble des projets réaliser lors de ma formation réunissant les différentes compétences acquises:
+          scripts, site web et exercices réseaux.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <label>Nom
+          <input type="text" name="name" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" required>
+        </label>
+        <label>Message
+          <textarea name="message" required></textarea>
+        </label>
+        <button type="submit">Envoyer</button>
+      </form>
+      <p id="form-message"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Glanios Lyam  
+      <a href="https://www.linkedin.com/in/lyam-glanios-48038638a" target="_blank" >
+        LinkedIn
+      </a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
